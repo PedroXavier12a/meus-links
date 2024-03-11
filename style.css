@@ -4,3 +4,33 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+body {
+    background-color: rgb(44, 39, 39);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    background-color: rgb(70, 58, 80);
+    width: 384px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+
+    h1,p,a {
+        color: aliceblue;
+    }
+
+}
+div img {
+    border-radius: 50%;
+    margin-bottom: 24px;
+
+}
+div h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
